@@ -1,0 +1,36 @@
+{
+  "name": "node-logman",
+  "version": "0.0.1",
+  "bin": {
+    "new-project": "./target/build/app.js"
+  },
+  "description": "<description>",
+  "scripts": {
+    "raw_test": "node node_modules/.bin/istanbul cover node_modules/.bin/_mocha",
+    "test": "grunt test"
+  },
+  "author": "Author",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/chai-as-promised": "0.0.29",
+    "@types/mocha": "^2.2.32",
+    "@types/sinon": "^1.16.31",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-mocha-istanbul-extra": "^5.0.2-1",
+    "grunt-ts": "^6.0.0-beta.3",
+    "grunt-tslint": "^3.2.1",
+    "isparta": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.5",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  }
+}
